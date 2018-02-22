@@ -41,7 +41,7 @@ h2 {
 table {  
   color: #333;
   font-family: Helvetica, Arial, sans-serif;
-  width: 640px;
+  max-width: 620px;
   left: 0;
   /*margin: auto;*/
   margin-top: 415px;
