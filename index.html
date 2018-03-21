@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114228646-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-114228646-1');
 </script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Was There a School Shooting Today?</title>
-    <link rel="stylesheet" href="style.css">
-    <script async src="./javascript/index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="style.css"
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
   </head>
   <body>
+    <div class="container1">
+<!--    <h1 class="display-1">Not Yet</h1>-->
     <h1>Not Yet</h1>
-    <h4 id='date'></h4>
-    <table>  
+    </div>
+      <div class="container2">
+      <table>  
       <tr>  
         <th>Date</th>
         <th>City, State</th>
@@ -28,138 +36,109 @@
        <tr>  
         <td>3/20/18</td>
         <td>Great Mills, MD</td>
-        <td>Great Mills High School</td>
+        <td><a href="http://www.bbc.com/news/world-us-canada-43474309" target="_blank">Great Mills High School</a></td>
       </tr>
        <tr>  
         <td>3/13/18</td>
         <td>Seaside, CA</td>
-        <td>Seaside High School</td>
+        <td><a href="https://www.nytimes.com/2018/03/14/us/teacher-gun-accidental-discharge.html" target="_blank">Seaside High School</a></td>
       </tr>
        <tr>  
         <td>3/13/18</td>
         <td>Alexandria, VA</td>
-        <td>George Washington Middle School</td>
+        <td><a href="https://www.nbcwashington.com/news/local/School-Resource-Officer-Accidentally-Fires-Weapon-Inside-School-476676103.html" target="_blank">George Washington Middle School</a></td>
       </tr>  
        <tr>  
         <td>3/9/18</td>
         <td>Lexington, KY</td>
-        <td>Frederick Douglass High School</td>
-      </tr>  
-       <tr>  
-        <td>3/5/18</td>
-        <td>Cadet, MO</td>
-        <td>Kingston High School</td>
-      </tr>  
-      <tr>  
-        <td>3/4/18</td>
-        <td>San Marcos, TX</td>
-        <td>Texas State University</td>
-      </tr>  
+           <td><a href="http://www.baltimoresun.com/news/87451338-132.html" target="_blank">Frederick Douglass High School</a></td>
+      </tr>   
         <tr>  
         <td>3/2/18</td>
         <td>Mount Pleasant, MI</td>
-        <td>Central Michigan University</td>
+            <td><a href="https://www.cnn.com/2018/03/02/us/central-michigan-university-shots-fired/index.html" target="_blank">Central Michigan University</a></td>
       </tr>  
         <tr>  
         <td>2/28/18</td>
         <td>Dalton, GA</td>
-        <td>Dalton High School</td>
-      </tr>
-      <tr>  
-        <td>2/15/18</td>
-        <td>Coconut Creek, FL</td>
-        <td>North Broward Preparatory School </td>
+            <td><a href="http://time.com/5179477/dalton-high-school-shooting/" target="_blank">Dalton High School</a></td>
       </tr>  
       <tr>  
         <td>2/14/18</td>
         <td>Parkland, FL</td>
-        <td>Marjory Stoneman Douglas High School</td>
+          <td><a href="https://www.cbsnews.com/feature/parkland-florida-school-shooting/" target="_blank">Marjory Stoneman Douglas High School</a></td>
       </tr>  
       <tr>  
         <td>2/8/18</td>
         <td>New York, NY</td>
-        <td>The Metropolitan High School</td>
+          <td><a href="http://newyork.cbslocal.com/2018/02/08/shot-fired-in-bronx-classroom/" target="_blank">The Metropolitan High School</a></td>
       </tr>  
       <tr>  
         <td>2/5/18</td>
         <td>Maplewood, MN</td>
-        <td>Harmony Learning Center</td>
+          <td><a href="http://abcnews.go.com/US/minnesota-3rd-grader-fires-police-officers-gun-school/story?id=52866888" target="_blank">Harmony Learning Center</a></td>
       </tr>
       <tr>  
         <td>2/5/18</td>
         <td>Oxon Hill, MD</td>
-        <td>Oxon Hill High School</td>
+          <td><a href="https://www.washingtonpost.com/local/public-safety/oxon-hill-high-school-student-shot-in-school-parking-lot/2018/02/05/5065f3f4-0acc-11e8-bbfa-97e2d3b4a7f1_story.html?utm_term=.20d34c278cf8" target="_blank">Oxon Hill High School</a></td>
       </tr>
       <tr>  
         <td>2/1/18</td>
         <td>Los Angeles, CA</td>
-        <td>Salvador B. Castro Middle School</td>
+          <td><a href="https://www.dailystar.co.uk/news/world-news/678879/los-angeles-shooting-sal-casto-middle-school-female-shooter-california" target="_blank">Salvador B. Castro Middle School</a></td>
       </tr>
       <tr>  
         <td>1/31/18</td>
-        <td>Los Angeles, CA</td>
-        <td>Lincoln High School</td>
-      </tr>
-      <tr>  
-        <td>1/26/18</td>
-        <td>Dearborn, MI</td>
-        <td>Dearborn High School</td>
+        <td>Philadelphia, PA</td>
+          <td><a href="http://6abc.com/man-32-killed-outside-lincoln-high-school-in-mayfair-idd/3013312/" target="_blank">Lincoln High School</a></td>
       </tr>
       <tr>  
         <td>1/25/18</td>
         <td>Mobile, AL</td>
-        <td>Murphy High School</td>
+          <td><a href="http://www.wkrg.com/news/local-news/shots-fired-at-murphy-high-school/938917276" target="_blank">Murphy High School</a></td>
       </tr>
       <tr>  
         <td>1/23/18</td>
         <td>Benton, KY</td>
-        <td>Marshall County High School</td>
+          <td><a href="https://www.cnn.com/2018/01/23/us/kentucky-high-school-shooting/index.html" target="_blank">Marshall County High School</a></td>
       </tr>
       <tr>  
         <td>1/22/18</td>
         <td>Gentilly, LA</td>
-        <td>The NET Charter High School</td>
+          <td><a href="http://www.nola.com/crime/index.ssf/2018/01/shooting_near_net_charter_high.html" target="_blank">The NET Charter High School</a></td>
       </tr>
       <tr>  
         <td>1/22/18</td>
         <td>Italy, TX</td>
-        <td>Italy High School</td>
+          <td><a href="https://www.nbcnews.com/news/us-news/texas-teen-charged-assault-italy-high-school-shooting-n840301" target="_blank">Italy High School</a></td>
       </tr>
       <tr>  
         <td>1/20/18</td>
         <td>Winston-Salem, NC</td>
-        <td>Wake Forest University</td>
+          <td><a href="http://myfox8.com/2018/01/23/police-looking-to-interview-3-after-man-shot-killed-at-wake-forest-university-event/" target="_blank">Wake Forest University</a></td>
       </tr>
       <tr>  
         <td>1/15/18</td>
         <td>Marshall, TX</td>
-        <td>Wiley College</td>
-      </tr>
-      <tr>  
-        <td>1/10/18</td>
-        <td>San Bernadino, CA</td>
-        <td>California State University, San Bernardino</td>
+          <td><a href="https://www.ktbs.com/news/east-texas/shooting-reported-at-wiley-college-in-marshall/article_a161689a-fa2a-11e7-9338-3bf76949bb06.html" target="_blank">Wiley College</a></td>
       </tr>
       <tr>  
         <td>1/10/18</td>
         <td>Sierra Vista, AZ</td>
-        <td>Coronado Elementary School</td>
-      </tr>
-      <tr>  
-        <td>1/10/18</td>
-        <td>Denison, TX</td>
-        <td>Grayson College</td>
-      </tr>
-      <tr>  
-        <td>1/04/18</td>
-        <td>Seattle, WA</td>
-        <td>New Start High School</td>
+          <td><a href="http://www.kvoa.com/story/37227238/sierra-vista-school-on-lockdown-after-fatal-shooting" target="_blank">Coronado Elementary School</a></td>
       </tr>
       <tr>  
         <td>1/03/18</td>
         <td>St. Johns, MI</td>
-        <td>East Olive Elementary School</td>
+          <td><a href="http://www.wusa9.com/article/news/nation-world/18-shooting-incidents-have-occurred-on-school-grounds-in-the-us-in-2018/507-518863102" target="_blank">East Olive Elementary School</a></td>
       </tr>
     </table>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
