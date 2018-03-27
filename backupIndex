@@ -24,25 +24,15 @@
   <body>
     <div class="container1">
 <!--    <h1 class="display-1">Not Yet</h1>-->
-<!--    <h1>Not Yet</h1>-->
-        <div class="jumbotron">
-  <h1 class="display-3">Not Yet</h1>
-<!--  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>-->
-  <hr class="my-4">
-  <p class="lead">
-    <a href="https://www.csgv.org/" target="_blank">Coalition Against Gun Violence</a> 
-  </p>
-  <p class="lead">
-    <a href="https://www.everytown.org/" target="_blank">Every Town for Gun Safety</a> 
-  </p>
-    <p class="lead">
-    <a href="https://www.momsdemandaction.org/" target="_blank">Moms Demand Aciton</a> 
-  </p>
-<p class="lead">
-    <a href="http://www.wagv.org/" target="_blank">Women Against Gun Violence</a> 
-  </p>
-</div>
+    <h1>Not Yet</h1>
     </div>
+      <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">How Can You Help?</h1>
+    <p class="lead">The Coalition Against Gun Violence seeks to prevent gun violence through data-driven policy development and aggressive advocacy.  They believe that all Americans have a right to live in communities free from gun violence</p>
+   <button type="button" class="btn btn-primary btn-lg btn-block">Donate Now</button>
+  </div>
+      </div>
       <div class="container2">
       <table>  
       <tr>  

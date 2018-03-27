@@ -5,42 +5,25 @@
 
 h1{
     font-family: "Merriweather";
+    font-size: 60px;
     font-weight: 700;
     text-align: center;
     color:#444;
-}
 
-.jumbotron{
-    margin-bottom:-10px
-}
-
-.lead{
-    text-align: center;
 }
 
 .container1{     
     width: 400px;
     margin: 0 auto;
-/*    margin-top: 160px;*/
+    margin-top: 160px;
 
 }
-.list-group{
-    display:inline-block;
-    width: 400px;
-}
-
 
 .container2{
     text-align: center;
     width: 400px;
     margin: auto;
-/*    padding-top: 150px;*/
-}
-
-.container3{
-    background-color: black;
-    width: 400px;
-    margin: 0 auto;
+    padding-top: 150px;
 }
 
 table{
@@ -48,11 +31,9 @@ table{
     max-width: 620px;
 }
 
-
-.list-group-item{
-/*    background-color: red;*/
+.container{
+    
 }
-
 
 
 
